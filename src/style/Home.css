@@ -1,0 +1,27 @@
+body{
+    background-color: rgba(0, 0, 0, 0.90);
+}
+.carousel{
+    height: 10%;
+    width: 80%;
+    margin: auto;
+}
+
+.carousel img{
+    height: 20%;
+    width: 20%;
+}
+
+.Section_1{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blanchedalmond;
+}
+
+.Section_1 div{
+    padding: 2%;
+}

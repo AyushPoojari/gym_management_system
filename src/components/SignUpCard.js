@@ -1,12 +1,14 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import signup from'./images/signup.jpg'
+
 
 function SignUpCard() {
   return (
     <>
     <Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="holder.js/100px180" />
+    <Card.Img variant="top" src={signup} />
     <Card.Body>
         <Card.Title>SignUp</Card.Title>
         <Card.Text>

@@ -21,6 +21,19 @@ body{
     justify-content: center;
     background-color: blanchedalmond;
 }
+@media only screen and (max-width: 600px) {
+.Section_1 {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: blanchedalmond;
+    }
+}
+
 
 .Section_1 div{
     padding: 2%;

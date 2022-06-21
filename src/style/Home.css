@@ -23,8 +23,8 @@ body{
 }
 @media only screen and (max-width: 600px) {
 .Section_1 {
+        margin:0;
         padding: 0;
-        margin: 0;
         list-style: none;
         display: flex;
         flex-direction: column;

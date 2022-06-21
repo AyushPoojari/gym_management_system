@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.Login form {
+    margin: auto;
+    height: 40%;
+    width: 40%;
+    padding: 2%;
+    background-color: bisque;
+}
+
+.input-field {
+    padding: 2%;
+    margin: 2%;
+}
+
+.input-field label {
+    margin-right: 4%;
+}
+
+.Login button {
+    background-color: blue;
+    color: white;
+    width: 100%;
+}

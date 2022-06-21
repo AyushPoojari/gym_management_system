@@ -14,7 +14,7 @@ function LoginCard() {
         <Card.Text>
           Already a member just login!
         </Card.Text>
-        <Button variant="primary">Click to Login</Button>
+        <Button variant="primary" href='/login'>Click to Login</Button>
     </Card.Body>
     </Card>
     </>

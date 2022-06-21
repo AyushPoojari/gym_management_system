@@ -12,9 +12,10 @@ function SignUpCard() {
     <Card.Body>
         <Card.Title>SignUp</Card.Title>
         <Card.Text>
-          Access the membership!By quick signup.
+          Access the membership!.
+
         </Card.Text>
-        <Button variant="primary">Sign Up</Button>
+        <Button variant="primary" href='/signup'>Sign Up</Button>
     </Card.Body>
     </Card>
     </>

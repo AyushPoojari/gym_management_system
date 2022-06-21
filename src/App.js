@@ -5,6 +5,7 @@ import NavigationPane from './components/Navbar';
 import Home from './Home';
 import Gallery from './Gallery';
 import {BrowserRouter,Route, Routes} from "react-router-dom";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
             <Route path = '/gallery' element = {<Gallery/>}/>
       </Routes>
     </BrowserRouter>
+    <Footer/>
     </div>
   );
 }

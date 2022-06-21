@@ -2,10 +2,11 @@ import React from "react";
 import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import './Footer.css'
 
 function Footer() {
     return (  
-        <div style={{position:"relative", bottom:0, width:"100%", paddingTop:"1em"}} >
+        <div style={{position:"relative", bottom:0, width:"100%", paddingTop:"1em" ,height:"10%" }} className = "footer" >
             <Container>
                 <Row className="justify-content-md-center">
                     <Col className="d-flex justify-content-md-center"

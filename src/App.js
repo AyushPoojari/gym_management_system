@@ -7,6 +7,7 @@ import Gallery from './Gallery';
 import Login from './Login';
 import SignUp from './SignUp';
 import {BrowserRouter,Route, Routes} from "react-router-dom";
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path = '/signup' element = {<SignUp/>}/>
       </Routes>
     </BrowserRouter>
+    <Footer/>
     </div>
   );
 }
